@@ -1,0 +1,2 @@
+# Natives.h generator for Read Dead Redemption 2
+Generates natives.h from the [RDR 2 natives](https://unknownmodder.github.io/rdr3-native-db/) with the parameters and return type from [GTA 5 native db](http://www.dev-c.com/nativedb/).
