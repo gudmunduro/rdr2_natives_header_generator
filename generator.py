@@ -29,9 +29,8 @@ def gta5_params_if_compatible(native_data):
             'params' in gta5_natives_ungrouped[native_data['name']]):
         params = gta5_natives_ungrouped[native_data['name']]['params']
         if len(params) < len(native_data['params']):
-            missingParamStartIndex = len(params)
-            print(f"Missing params start at {missingParamStartIndex}")
-            params += native_data['params'][missingParamStartIndex:]
+            missing_param_start_index = len(params)
+            params += native_data['params'][missing_param_start_index:]
         return params
 
     return native_data['params']
